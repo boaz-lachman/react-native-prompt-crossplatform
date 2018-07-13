@@ -42,6 +42,7 @@ const Prompt = ({
           underlineColorAndroid={primaryColor}
           style={[{ borderBottomColor: primaryColor }, styles.promptInput, inputStyle]}
           onChangeText={text => onChangeText(text)}
+          onSubmitEdit={onSubmit}
           {...inputProps}
         />
         <View style={styles.errorContainer}>
