@@ -38,6 +38,7 @@ const Prompt = ({
         <Text style={[styles.heading, headingStyle]} ellipsizeMode="tail" numberOfLines={1}>{title}</Text>
         <TextInput
           placeholder={inputPlaceholder}
+          autoFocus={true}
           defaultValue={defaultValue}
           underlineColorAndroid={primaryColor}
           style={[{ borderBottomColor: primaryColor }, styles.promptInput, inputStyle]}
